@@ -46,7 +46,8 @@ class Maquina:
             if self.entrada[auxWhile] != '':
                 aux = self.entrada[auxWhile]
                 self.estado, self.letra, direcao = self.transicao(self.estado, aux)
-           
+                
+                # Heurística para a condição de parada
                 if(estado == self.estado):
                     count += 1
                     if(count == 30):
