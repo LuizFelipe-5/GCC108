@@ -6,8 +6,10 @@
     - O arquivo "argumento1" deve conter em sua primeira linha uma sequência de três números zero (000), sequência que simboliza o início do bloco de transições.
     <br>
     <br>
-        - Nas linhas subsequentes do arquivo estará as transições, as quais devem ser formadas pelo estado atual, a letra atual, o próximo estado, a próxima letra e a direção. Todos separados por um número zero e também é necessário acrescentar dois ao final de cada transição que não seja a última da máquina.<br>
-        Exemplo: <br>
+        - Nas linhas subsequentes do arquivo estará as transições, as quais devem ser formadas pelo estado atual, a letra atual, o próximo estado, a próxima letra e a direção. Todos separados por um número zero e também é necessário acrescentar dois ao final de cada transição que não seja a última da máquina.
+        <br>
+        Exemplo:
+        <br>
         1011101101110100 <br>
         11010111010100 <br>
         11011011110110100 <br>
@@ -25,6 +27,6 @@
         <br>
         <br>
 2) Execução: rodar o comando abaixo na raiz do projeto
-    - python programa.py argumento1
+    - python programa.py argumento1 
 
 
